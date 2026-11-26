@@ -2,6 +2,8 @@
 
 I made this because Edit Mode's settings windows kept covering the frames I was trying to move.
 
+Made for WoW: Forever and only ever tested there. It may or may not work on Retail or Classic.
+
 | Open | Rolled up |
 | --- | --- |
 | ![Edit Mode windows open](media/open.png) | ![HUD Edit Mode rolled up, settings window moved](media/rolled-up.png) |
