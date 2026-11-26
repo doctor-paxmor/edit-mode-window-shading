@@ -1,3 +1,5 @@
+<img src="icon.png" width="96" align="right">
+
 # Edit Mode Window Shading
 
 I made this because Edit Mode's settings windows kept covering the frames I was trying to move.
