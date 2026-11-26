@@ -35,4 +35,27 @@ If something acts up, `/ws log on`, do the thing, then `/reload`. The log is in
 
 ## Reporting a bug
 
-Use the [bug report form](../../issues/new/choose). It walks you through what to include, like the log above.
+Open an issue here (or comment on CurseForge) and copy this in:
+
+```
+Subject: Bug: <what went wrong, in a few words>
+
+Addon version:
+Game version:
+What happened:
+What I expected:
+Steps:
+1.
+2.
+Error:
+Other addons:
+```
+
+Then attach the log and a screenshot.
+
+- **Addon version:** in the CurseForge app, or `## Version` in `EditModeWindowShading.toc`
+- **Game version:** type `/run print(GetBuildInfo())` in chat and copy what it prints
+- **Error:** paste the whole Lua error. If none shows, type `/console scriptErrors 1` and try again
+- **Log:** `/ws log clear`, `/ws log on`, make the bug happen, `/reload`, then attach
+  `WTF/Account/<account>/SavedVariables/EditModeWindowShading.lua`. `/ws log off` after
+- **Other addons:** especially ones with their own Edit Mode windows. Does it still happen with only this one on?
