@@ -4,6 +4,7 @@
 ## Author: doctor-paxmor
 ## Version: 1.8
 ## Category: Interface Enhancements
+## IconTexture: Interface\Icons\INV_Scroll_03
 ## SavedVariables: EditModeWindowShadingDB
 
 EditModeWindowShading.lua
