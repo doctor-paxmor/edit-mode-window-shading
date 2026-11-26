@@ -1,12 +1,10 @@
-<img src="icon.png" width="96" align="right">
-
-# Edit Mode Window Shading
+<h1><img src="media/icon.png" width="48" align="top"> Edit Mode Window Shading</h1>
 
 I made this because Edit Mode's settings windows kept covering the frames I was trying to move.
 
 | Open | Rolled up |
 | --- | --- |
-| ![Edit Mode windows open](screenshots/open.png) | ![HUD Edit Mode rolled up, settings window moved](screenshots/rolled-up.png) |
+| ![Edit Mode windows open](media/open.png) | ![HUD Edit Mode rolled up, settings window moved](media/rolled-up.png) |
 
 - Double-click a window's title, or click the arrow in its top-left corner, to roll it up to just
   the title row. Do it again to open it.
@@ -15,12 +13,20 @@ I made this because Edit Mode's settings windows kept covering the frames I was 
 - Works on Blizzard's Edit Mode windows and on addon ones built the same way, like Cooldown Manager
   Centered's settings window.
 
-`/ws reset` clears saved spots and rolled-up windows. `/ws debug` lists the windows it's tracking.
-
-If something acts up, `/ws log on`, do the thing, then `/reload`. The log is in
-`WTF/Account/<account>/SavedVariables/EditModeWindowShading.lua` (`/ws log` shows the last 20 lines
-in chat). `/ws log off` when you're done.
-
 ## Install
 
-Copy the `EditModeWindowShading` folder into `World of Warcraft/_forever_/Interface/AddOns`.
+Download the zip from [Releases](../../releases) and copy the `EditModeWindowShading` folder into
+`World of Warcraft/_forever_/Interface/AddOns`.
+
+## Commands
+
+| Command | What it does |
+| --- | --- |
+| `/ws reset` | Clears saved spots and rolled-up windows |
+| `/ws debug` | Lists the windows it's tracking |
+| `/ws log on` / `/ws log off` | Starts or stops the log |
+| `/ws log` | Shows the last 20 log lines in chat |
+| `/ws log clear` | Empties the log |
+
+If something acts up, `/ws log on`, do the thing, then `/reload`. The log is in
+`WTF/Account/<account>/SavedVariables/EditModeWindowShading.lua`.
