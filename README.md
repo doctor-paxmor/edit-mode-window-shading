@@ -2,6 +2,10 @@
 
 I made this because Edit Mode's settings windows kept covering the frames I was trying to move.
 
+| Open | Rolled up |
+| --- | --- |
+| ![Edit Mode windows open](screenshots/open.png) | ![HUD Edit Mode rolled up, settings window moved](screenshots/rolled-up.png) |
+
 - Double-click a window's title, or click the arrow in its top-left corner, to roll it up to just
   the title row. Do it again to open it.
 - Drag a window (or its rolled-up bar) anywhere and it stays there, even when you select another
