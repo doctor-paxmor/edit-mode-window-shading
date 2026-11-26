@@ -32,3 +32,7 @@ Download the zip from [Releases](../../releases) and copy the `EditModeWindowSha
 
 If something acts up, `/ws log on`, do the thing, then `/reload`. The log is in
 `WTF/Account/<account>/SavedVariables/EditModeWindowShading.lua`.
+
+## Reporting a bug
+
+Use the [bug report form](../../issues/new/choose). It walks you through what to include, like the log above.

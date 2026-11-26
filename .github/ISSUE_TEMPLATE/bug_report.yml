@@ -1,0 +1,83 @@
+name: Bug report
+description: Something isn't working right
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This addon is made for WoW: Forever and only tested there.
+        The more of this you fill in, the faster I can fix it.
+
+  - type: input
+    id: addon-version
+    attributes:
+      label: Addon version
+      description: Shown next to the addon in the CurseForge app, or in the addon's .toc file (## Version).
+      placeholder: "1.8"
+    validations:
+      required: true
+
+  - type: input
+    id: game-version
+    attributes:
+      label: Game version
+      description: "Type /run print(GetBuildInfo()) in chat and paste what it prints."
+      placeholder: "1.60.1 ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen
+      description: Starting from opening Edit Mode.
+      placeholder: |
+        1. Open Edit Mode
+        2. Double-click the title of ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: lua-error
+    attributes:
+      label: Lua error (if any)
+      description: |
+        If the game showed an error, paste the whole thing, including the stack.
+        To make errors show: type /console scriptErrors 1 in chat. BugSack also works, copy the full error from it.
+      render: text
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: |
+        1. Type /ws log clear, then /ws log on
+        2. Make the bug happen
+        3. Type /reload (this saves the log to disk)
+        4. Drag this file into this box:
+           World of Warcraft/_forever_/WTF/Account/<your account>/SavedVariables/EditModeWindowShading.lua
+        5. Type /ws log off
+      placeholder: Drag EditModeWindowShading.lua here
+
+  - type: textarea
+    id: addons
+    attributes:
+      label: Other addons
+      description: |
+        Especially ones with their own Edit Mode windows (Cooldown Manager Centered, EnhanceQoL, ...).
+        Does it still happen with only this addon turned on?
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: A screenshot of the problem helps a lot. Drag it in here.
