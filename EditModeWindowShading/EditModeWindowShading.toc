@@ -1,0 +1,9 @@
+## Interface: 16001
+## Title: Edit Mode Window Shading
+## Notes: Double-click an Edit Mode window's title to roll it up; dragged windows stay where you put them.
+## Author: doctor-paxmor
+## Version: 1.8
+## Category: Interface Enhancements
+## SavedVariables: EditModeWindowShadingDB
+
+EditModeWindowShading.lua
